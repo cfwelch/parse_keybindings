@@ -1,4 +1,4 @@
-This program installs keybindings for Ubuntu to automatically generate parse trees from your clipboard
+This program installs keybindings for Ubuntu to automatically generate parse trees from your clipboard.
 
 Run the python install script and give it the location of Stanford CoreNLP and the desired install directory.
 
@@ -6,3 +6,5 @@ Then if you press "<Ctrl><Shift>!" it will open a constituency parse visualizati
 
 Python dependencies: https://github.com/brendano/stanford_corenlp_pywrapper
 Ubuntu dependencies: sudo apt-get install xclip graphviz
+
+You can modify the keybindings in the installation script if you know the gsettings abbreviations or you can open Settings > Keyboard > Shortcuts > Custom Shortcuts to modify them with the GUI.
